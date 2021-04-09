@@ -1,6 +1,8 @@
 # Your code goes here:
-def render_person(param):
-    return param
+def render_person(name,date,color,age,gender):
+    concat = name +" "+ "is a"+" "+str(age)+" "+ "years old" +" "+ gender+" "+"born in"+" "+date +" "+ "with" +" "+ color +" "+ "eyes"
+    return concat
+
 
 
 # Do not edit below this line
